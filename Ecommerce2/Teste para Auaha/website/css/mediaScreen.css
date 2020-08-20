@@ -1,0 +1,447 @@
+/* 1009px */
+@media screen and (max-width: 1006px) {
+  nav {
+    display: flex;
+    border-bottom: none;
+    flex-direction: column;
+    width: 25rem;
+    height: 100vh;
+    background-color: #272727;
+    justify-content: space-evenly;
+    transform: translateX(-25rem);
+    transition: transform .5s;
+  }
+
+  nav ul {
+    height: initial;
+    display: block;
+    /* height:5rem; */
+    font-size: 2rem;
+    text-align: center
+  }
+
+  nav ul li {
+    padding: 0;
+    line-height: initial;
+    margin-bottom: 2rem;
+    /* line-height: 5rem; */
+  }
+
+  .dropdown-content {
+    background-color: #f2f2f2;
+  }
+
+  .logo {
+    margin-top: 0px;
+    padding: 0
+  }
+
+  .nav-right ul li,
+  .nav-right ul li:nth-child(1){
+    border: none
+  }
+
+  .menu-toggle {
+    display: flex;
+    /* background-color: #272727; */
+  }
+
+  .fa-times {
+    display: block;
+    position: absolute;
+    top: 1.3rem;
+    right: 1.3rem;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .active {
+    transform: translateX(0);
+  }
+
+  .overlay {
+    position: absolute;
+    width: 0;
+    height: 100vh;
+    background-color: rgba(0,0,0,.8);
+    z-index: 998;
+    opacity: 0;
+    transform: opacity .5s;
+  }
+
+  .overlay.menu-open {
+    width: 100%;
+    opacity: 1;
+  }
+
+  .nav-middle {
+    margin-right: 0px !important;
+  }
+
+  .shopping-cart {
+    background-color: transparent;
+  }
+
+  .shopping-cart span {
+    top: 76.5rem !important;
+    background-color: #ff5959;
+    left: 9.5rem;
+  }
+
+  .nav-right {
+    margin-top: -80px;
+    padding-right: 0rem !important;
+  }
+
+  .main-header {
+    background-position: 62% 0%;
+  }
+}
+
+@media screen and (max-device-width: 360px) {
+  .shopping-cart span {
+    top: 65rem !important;
+    background-color: #ff5959;
+    left: 10.5rem;
+  }
+  .hotsale {
+    font-size: 11.5px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .block1 {
+    width: 160px !important;
+    border-right: 0.1px solid #D2D3CE !important;
+  }
+
+  .block2 {
+    width: 160px !important;
+    border-left: 0.1px solid #D2D3CE;
+    border-right: 0.1px solid #D2D3CE;
+  }
+
+  .block3 {
+    width: 160px !important;
+    margin-top: 2rem !important;
+    border-left: 0.1px solid #D2D3CE;
+    border-right: 0.1px solid #D2D3CE;
+  }
+
+  .block4 {
+    width: 160px !important;
+    margin-top: 2rem !important;
+    border-left: 0.1px solid #D2D3CE !important;
+  }
+
+  .categories {
+    margin-top: 200px !important;
+    padding: 5px !important;
+  }
+
+  .col-3 {
+    flex-basis: 30%;
+    min-width: 110px !important;
+    margin-bottom: 30px;
+  }
+
+  .col-4 {
+    flex-basis: 90% !important;
+  }
+
+  .li-right{
+    margin-top: 40px;
+  }
+
+  .always .img-always {
+    margin-left: 64px;
+    width: 50% !important;
+  }
+
+  .input-control {
+    width: 110% !important;
+  }
+
+  .always h3 {
+    margin-left: 30px !important;
+  }
+
+  .link-facebook {
+    margin-left: -60px;
+    margin-right: -70px !important;
+  }
+  .link-facebook img {
+    width: 58% !important;
+  }
+
+  .link-instagram img {
+    width: 26% !important;
+  }
+
+  .link-instagram {
+    margin-right: -60px !important;
+  }
+
+  .link-facebook {
+    margin-left: -27px !important;
+  }
+
+  .col-2 {
+    flex-basis: 100% !important;
+    padding: 10px !important;
+    min-width: 00px !important;
+    margin-bottom: 50px !important;
+    transition: transform 0.5s !important;
+    text-align: center;
+  }
+
+  .telefone {
+    margin-left: 75px;
+  }
+
+  .whatsapp {
+    margin-left: 80px;
+  }
+  .whatsapp img {
+    width: 10%;
+    margin-top: -20px;
+    margin-left: 15px;
+  }
+  .whatsapp p {
+    margin-top: -22px;
+  }
+  .whatsapp .row {
+    justify-content: end !important;
+  }
+
+  .gmail img {
+    width: 10%;
+    margin-top: -1px;
+    margin-left: 87px;
+  }
+  .gmail p {
+    margin-top: -1px;
+    margin-left: 11px;
+  }
+  .gmail .row {
+    justify-content: end !important;
+  }
+  .title-payment {
+    text-align: center;
+  }
+
+  .facebook-auaha {
+    margin-top: -50px !important;
+  }
+
+  .title-doubts, .title-service {
+    margin-top: -40px !important;
+  }
+  .always h4 {
+    margin-top: -50px;
+  }
+  .form-input, .form-button {
+    margin-top: -60px;
+  }
+
+  .always h3, .link-facebook, .link-instagram {
+    margin-top: -90px;
+    margin-bottom: -90px;
+  }
+}
+
+@media screen and (min-device-width: 601px) { 
+  nav {
+    padding-left: 34px;
+    padding-right: 34px
+  }
+  .block1, .block2, .block3, .block4 {
+    width: 225px !important;
+    margin-top: 110rem !important;
+  }
+  .small-container {
+    max-width: 900px !important;
+    margin: auto;
+  }
+  .hotsale {
+    font-size: 11.5px !important;
+  }
+
+  .dropbtn {
+    font-size: 11px;
+    padding: 0 0px;
+  }
+
+  nav ul li {
+    padding: 0 2rem;
+  }
+
+  .logo {
+    padding-left: 0rem;
+  }
+
+  .nav-right {
+    padding-right: 0rem;
+  }
+
+  /* .block1::after {
+    right: 710px !important;
+    margin-top: -100.5px !important
+  } */
+
+  /* .block2::after {
+    right: 500px !important;
+    margin-top: -100.5px !important
+  }
+  .block3::after {
+    right: 284px !important;
+    margin-top: -100.5px !important
+  } */
+
+  .col-3 img {
+    /* width: 130% !important; */
+    margin-top: 120px;
+  }
+  .col-3 {
+    min-width: 300px !important;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: inherit !important;
+    justify-content: normal !important;
+  }
+
+  .row2 {
+    padding-left: 5px !important;
+  }
+
+  .layer10 {
+    padding-right: 10px;
+  }
+
+  .layer8 {
+    padding-right: 10px;
+  }
+
+  .layer9 {
+    padding-right: 10px;
+  }
+
+  .input-control {
+    width: 55% !important;
+  }
+
+  .form-button {
+    margin-left: -150px !important;
+  }
+
+  .always h3 {
+    margin-left: 70px !important;
+  }
+
+  .link-facebook {
+    margin-left: 0px !important;
+  }
+
+  .link-instagram {
+    margin-left: 65px;
+  }
+
+  .always .img-always {
+    margin-left: 20px !important;
+    width: 50% !important;
+  }
+  .form-input {
+    margin-left: 10px !important;
+  }
+  .always h3 {
+    margin-left: 40px !important;
+    margin-right: 10px !important;
+  }
+}
+
+@media screen and (max-device-width: 1352px) {
+  .search span {
+    display: none;
+  }
+}
+
+@media screen and (max-device-width: 1105px) {
+  .nav-middle ul li {
+    padding: 0 0.5rem !important;
+  }
+
+  .nav-middle {
+    margin-right: -30px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .form-input {
+    margin-left: 40px;
+    min-width: 330px;
+  }
+
+  .form-button {
+    width:0px;
+    margin-left: -123px;
+  }
+
+  .always {
+    padding: 0 !important;
+    margin-bottom: 15px !important;
+  }
+
+  .always h4 {
+    margin-left: -50px;
+  }
+
+  .always .group-form {
+    margin-left: 50px;
+    margin-right: -50px;
+  }
+
+  .always .img-always {
+    margin-left: 44px;
+    width: 50% !important;
+  }
+
+  .title-service {
+    margin-top: 5px;
+    margin-left: 13px;
+  }
+
+  .whatsapp img {
+    width: 10%;
+    margin-top: -22px;
+    margin-left: 12px;
+  }
+  .whatsapp p {
+    margin-top: -22px;
+    margin-left: 11px;
+  }
+  .whatsapp .row {
+    justify-content: end !important;
+  }
+
+  .gmail img {
+    width: 14%;
+    margin-top: -1px;
+    margin-left: 7px;
+  }
+  .gmail p {
+    margin-top: -1px;
+    margin-left: 11px;
+  }
+  .gmail .row {
+    justify-content: end !important;
+  }
+
+  .footer h3 {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: bold !important;
+  }
+}
