@@ -145,7 +145,7 @@ body {
 	line-height: 1.4em;
 	font-style: italic;
 	margin: 20px auto;
-	width: 460px;
+	max-width: 460px;
 }
 
 @media (max-width: 739px) {
@@ -153,6 +153,10 @@ body {
 		margin-left: 0px;
 		margin-right: 0px;
 	} 
+
+	.sobre > p {
+		max-width: 300px;
+	}
 }
 
 /* Produtos */
