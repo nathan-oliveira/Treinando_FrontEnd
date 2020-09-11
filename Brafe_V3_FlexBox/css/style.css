@@ -64,7 +64,8 @@ body {
 		margin: 0px;
 	}
 	.menu-logo {
-		margin: 0px;
+		margin: 0px 0px 10px 0px;
+		text-align: center;
 	}
 	.menu-nav ul li a {
 		padding-left: 0px;
